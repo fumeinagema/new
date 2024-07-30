@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Safe Vaults</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+   <!-- Header -->
+    <nav class="sticky-header">
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+        </svg>
+    </label>
+  
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+        <label for="sidebar-active" class="closed-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+            </svg>
+        </label>
+        <a href="index.html" class="link-home">Home</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+  <!-- Header -->
+
+    <div class="container my-5 flex-grow-1">
+        <div class="contact-form-container">
+            <h1 class="text-center mb-5">Contact Us</h1>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form action="https://formspree.io/f/mgvwoowr" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="border-separator"></div>
+        
+        <div class="contact-numbers-container mt-5">
+            <h2 class="text-center mb-4">Contact Numbers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h5>Mobile 1</h5>
+                        <p>+971 56 000 0000</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h5>Mobile 2</h5>
+                        <p>+971 50 000 000</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <h5>Mobile 3</h5>
+                        <p>+971 55 000 0000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-card mt-4 text-center">
+                <h5>Landline</h5>
+                <p>+971 04 000 0000</p>
+            </div>
+        </div>
+    </div>    
+
+   <!-- Footer -->
+    <div class="footer d-flex flex-column flex-sm-row justify-content-center align-items-centersborder-top">
+    <div class="container">
+    <p class="footer-text mb-0">© 2024 SDS, Inc. All rights reserved.</p>
+    </div>
+  </div>
+  <!-- Footer -->
+</body>
+</html>
