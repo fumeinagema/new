@@ -449,8 +449,6 @@ input:checked + .slider:before {
 #testimonials {
     padding: 5rem 1rem;
     text-align: center;
-    background: url('/images/customers.jpg') no-repeat center center;
-    background-size: cover; 
     color: black; 
 }
 
